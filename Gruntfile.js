@@ -238,7 +238,7 @@ module.exports = function(grunt) {
               };
             }
             var tokenizer = new Tokenizer();
-            function Parser () {
+            function Parser() {
               this.parseFile = function () {
                 var sections = [];
                 while (true) {
